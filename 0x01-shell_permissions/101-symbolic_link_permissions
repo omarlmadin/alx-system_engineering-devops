@@ -1,0 +1,2 @@
+#!/bin/basg
+sudo chown vincent:staff _hello 
