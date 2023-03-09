@@ -1,2 +1,2 @@
 #!/bin/bash
-[ $(stat -c '%U' hello) = "guillaume" ] && sudo chown betty hello && echo "Owner of file 'hello' has been changed to 'betty'" || true
+chown --from=guillaume betty hello
